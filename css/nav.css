@@ -83,7 +83,6 @@
 }
 .top_nav input[type=text] {
   padding: 6px 6px 6px 100px;
-  
   border: none;
   margin-top: 8px;
   margin-right: 0px; /* input 검색창과 검색아이콘 사이의 길이를 조정해줌  */
@@ -92,6 +91,11 @@
 
 .top_nav .search-container {
   float: right;
+}
+
+.sub_title-login_register {
+  text-align: right;
+  text-decoration: underline;
 }
 
 .top_nav .search-container button {
