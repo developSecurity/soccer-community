@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>해축잘 커뮤니티</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,46 +21,66 @@
     </header>
 
     <!-- 탐색 메뉴 -->
-    <nav class="tab_bar">
-      <ul>
-       <li><a href="#">홈</a></li>
-       <li><a href="#">라리가</a>
-        <ul>
-          <li><a href="">구단순위</a></li>
-          <li><a href="">축구일정</a></li>
-          <li><a href="">선수순위</a></li>
-          <li><a href="">역대우승팀</a></li>
-          <li><a href="">역사</a></li>
-        </ul>
-        </li>
-        <li><a href="#">프리미어리그</a>
-            <ul>
-              <li><a href="">구단순위</a></li>
-              <li><a href="">축구일정</a></li>
-              <li><a href="">선수순위</a></li>
-              <li><a href="">역대우승팀</a></li>
-              <li><a href="">역사</a></li>
-            </ul>
-        </li>
-       <li><a href="#">세리에A</a>
-        <ul>
-             <li><a href="">구단순위</a></li>
-             <li><a href="">축구일정</a></li>
-             <li><a href="">선수순위</a></li>
-             <li><a href="">역대우승팀</a></li>
-             <li><a href="">역사</a></li>
-         </ul>
-       </li>
-       <li><a href="#">분데스리가</a>
-        <ul>
-             <li><a href="">구단순위</a></li>
-             <li><a href="">축구일정</a></li>
-             <li><a href="">선수순위</a></li>
-             <li><a href="">역대우승팀</a></li>
-             <li><a href="">역사</a></li>
-         </ul>
-       </li>
-    </ul>
+    <nav>
+     <div class="nav_bar">
+       <a href="index.html">홈</a>
+       <a href="#">뉴스</a>
+       <div class="dropdown_menu">
+         <button class="dropbtn">라리가
+           <i class="fa fa-caret-down"></i>  
+         </button>
+         <div class="dropdown-content">
+           <a href="#">구단정보</a>
+           <a href="#">구단순위</a>
+           <a href="#">선수순위</a>
+           <a href="#">축구일정</a>
+           <a href="#">역대우승팀</a>
+        </div>
+       </div>
+       <div class="dropdown_menu">
+            <button class="dropbtn">프리미어리그
+              <i class="fa fa-caret-down"></i>  
+            </button>
+           <div class="dropdown-content">
+             <a href="#">구단정보</a>
+             <a href="#">구단순위</a>
+             <a href="#">선수순위</a>
+             <a href="#">축구일정</a>
+            <a href="#">역대우승팀</a>
+           </div>
+        </div>
+        <div class="dropdown_menu">
+                <button class="dropbtn">세리에A
+                  <i class="fa fa-caret-down"></i>  
+                </button>
+               <div class="dropdown-content">
+                 <a href="#">구단정보</a>
+                 <a href="#">구단순위</a>
+                 <a href="#">선수순위</a>
+                 <a href="#">축구일정</a>
+                 <a href="#">역대우승팀</a>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+                <button class="dropbtn">분데스리가
+                  <i class="fa fa-caret-down"></i>  
+                </button>
+               <div class="dropdown-content">
+                 <a href="#">구단정보</a>
+                 <a href="#">구단순위</a>
+                 <a href="#">선수순위</a>
+                 <a href="#">축구일정</a>
+                <a href="#">역대우승팀</a>
+            </div>
+        </div>
+        <div class="top_nav">
+          <div class="search-container">
+          <input type="text" placeholder="검색어를 입력하세요." name="search">
+          <button type="submit">
+           <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
     </nav>
 
     <!--  오른쪽 여백  -->
