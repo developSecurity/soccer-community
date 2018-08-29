@@ -10,7 +10,7 @@
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 42px;  /* 메뉴바 오른쪽 거리증가 */
+  padding: 14px 50px;  /* 메뉴바 오른쪽 거리증가 */
   text-decoration: none;
 }
 
@@ -24,7 +24,7 @@
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 14px 30px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
