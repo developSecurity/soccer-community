@@ -1,26 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>해축잘 커뮤니티</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    
-<header>
-</header>
 
-<section>
-  <article>
-    <div class="login_box">
-        <label for="id_write">아이디 (이메일)</label>
-        <input type="text" name="email" value="" >
-        <label for="passwd_write">비밀번호</label>
-        <input type="password" name="passwd" value="">
-    </div>
-  </article>
-</section>
+<body>
+    <!--  머리글  -->
+    <header>
+        <div class="sub_title">
+           <h1 class="sub_title-text">해축잘 커뮤니티</h1>
+        </div>        
+    </header>
+
+    <!-- 탐색 메뉴 -->
+    <nav>
+     <div class="nav_bar">
+       <a href="index.html">홈</a>
+       <a href="#">뉴스</a>
+       <div class="dropdown_menu">
+         <button class="dropbtn">라리가
+           <i class="fa fa-caret-down"></i>  
+         </button>
+         <div class="dropdown-content">
+           <a href="#">정보</a>
+           <a href="#">구단순위</a>
+           <a href="#">선수순위</a>
+           <a href="#">축구일정</a>
+           <a href="#">역대우승팀</a>
+        </div>
+       </div>
+       <div class="dropdown_menu">
+            <button class="dropbtn">프리미어리그
+              <i class="fa fa-caret-down"></i>  
+            </button>
+           <div class="dropdown-content">
+             <a href="#">정보</a>
+             <a href="#">구단순위</a>
+             <a href="#">선수순위</a>
+             <a href="#">축구일정</a>
+            <a href="#">역대우승팀</a>
+           </div>
+        </div>
+        <div class="dropdown_menu">
+                <button class="dropbtn">세리에A
+                  <i class="fa fa-caret-down"></i>  
+                </button>
+               <div class="dropdown-content">
+                 <a href="#">정보</a>
+                 <a href="#">구단순위</a>
+                 <a href="#">선수순위</a>
+                 <a href="#">축구일정</a>
+                 <a href="#">역대우승팀</a>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+                <button class="dropbtn">분데스리가
+                  <i class="fa fa-caret-down"></i>  
+                </button>
+               <div class="dropdown-content">
+                 <a href="#">정보</a>
+                 <a href="#">구단순위</a>
+                 <a href="#">선수순위</a>
+                 <a href="#">축구일정</a>
+                <a href="#">역대우승팀</a>
+            </div>
+        </div>
+        <div class="top_nav">
+          <div class="search-container">
+          <input type="text" placeholder="검색어를 입력하세요." name="search">
+          <button type="submit">
+           <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+    </nav>
+
+    <!--  오른쪽 여백  -->
+    <aside class="aside_advertising">
+        <div class="side_nav">
+          <a href="index.html">홈</a>
+          <a href="" class="every_book-read">전체 글보기</a>
+        </div>
+        <!-- 구글 ad 광고 재개-->
+    </aside>
+
+    <!--  메인 콘텐츠  -->
+    <section>
+      <div class="login-box">
+        <div class="login_title">
+          <span class="login_text">로그인</span>
+        </div>
+         <div class="login-window">
+          <label for="id">아이디</label>
+         </div>
+         <div class="input-type_window">
+          <input type="input_login" size="50">
+         </div>  
+         <div class="passwd-window">
+          <label for="passwd">비밀번호</label>
+         </div>
+         <div class="input-type_window">  
+          <input type="input_login" size="50">
+         </div>
+      </div>
+
+    </section>
+
+    <!-- 하단  -->
+    <footer class="make_me_box">
+            <span class="make_me">MAKE KIM SEUNG WON</span>
+            <div class="bug_mail">
+             <span class="bug_email">문의: kimseungwon9297@gmail.com</span>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
