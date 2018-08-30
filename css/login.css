@@ -2,9 +2,23 @@
     box-sizing: content-box;
 }
 
+.under-line {
+    border-bottom: 1px solid gray;
+    position: absolute;
+    width: 751px;
+}
+
+.col-line {
+    border-left: 1px solid gray;
+    height: 15px;
+    position: absolute;
+    left: 87%;
+    top: 96.3%;
+}
+
 .login-box {
     display: inline-block;
-    padding: 0px 0px 240px 0px;
+    padding: 300px 50px 240px 0px;
     margin-left: 300px;
     width: 60%;
     border: 1px solid;
@@ -15,17 +29,37 @@
 
 .login_title {
     text-align: left;
+    margin-top: -40px;
+    padding: 20px;
 }
 
 .together_login-window {
+    position: absolute;
+    top: 40px;
+}
+
+.login-window {
+    padding-top: 70px;
 }
 
 .login-window, .passwd-window {
-    padding-left: 170px;
+    padding-left: 220px;
+}
+
+.login-btn {
+    margin: 10px 25px 30px 250px;
+}
+
+.login-btn, .register-btn {
+    padding: 13px 30px;
+    background-color: #555555;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 70px;
 }
 
 .input-type_window {
-    padding-left: 170px;
+    padding-left: 220px;
     margin-top: 5px;
     margin-bottom: 30px;
 }
@@ -33,4 +67,28 @@
 input[type=input_login] {
     height: 40px;
     width: 70%;
+}
+
+.id-remember {
+    padding: 30px 0px 0px 120px;
+}
+
+.id-find {
+    padding-left: 275px;
+    padding-right: 25px;
+}
+
+.id-remember-text {
+    font-size: 12px;
+    color: gray;
+}
+
+.id-find {
+    font-size: 12px;
+    color: gray;
+}
+
+.passwd-find {
+    font-size: 12px;
+    color: gray;
 }
